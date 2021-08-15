@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/PicsArt_05-30-08.09.04.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -35,8 +35,8 @@ class Profile extends React.Component {
     return (
       <>
         <DemoNavbar />
-        <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
+        <main className="profile-page" ref="main" >
+          <section className="section-profile-cover section-shaped my-0" style={{backgroundColor:"#D9AC9C"}}>
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
               <span />
@@ -91,6 +91,8 @@ class Profile extends React.Component {
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                           size="sm"
+                          style={{backgroundColor:"#2A4359"}}
+                          
                         >
                           Connect
                         </Button>
@@ -100,6 +102,8 @@ class Profile extends React.Component {
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                           size="sm"
+                          style={{backgroundColor:"#45718C"}}
+
                         >
                           Message
                         </Button>
@@ -124,31 +128,27 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Areej Elayyan {" "}
+                      <span className="font-weight-light">, 26</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Al Zarqa, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                     Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
-                    </div>
+                      BSc Software Engineering - The Hashemite University
+	                    </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        A graduate in software engineering with a passion for all things related to technology and programming. Worked in IT teaching and supervision, and looking for new opportunities to share my skills and passion while expanding my horizons. Excellent communication skills, a great team player with proven inter-personal skills, well-organized and a quick learner. 
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
